@@ -1,0 +1,49 @@
+/Data01/Project/django_example
+├── accounts
+│   ├── migrations
+│   │   └── __pycache__
+│   ├── __pycache__
+│   └── templates
+│       └── accounts
+├── config
+│   ├── __pycache__
+│   ├── static
+│   │   ├── css
+│   │   ├── imgs
+│   │   │   └── img_section
+│   │   └── js
+│   └── templates
+├── instaclone
+│   ├── css
+│   ├── data
+│   ├── imgs
+│   ├── insta_clone
+│   │   ├── css
+│   │   ├── data
+│   │   ├── imgs
+│   │   │   └── img_section
+│   │   └── js
+│   └── js
+├── media
+│   ├── accounts
+│   │   └── eunsol
+│   └── post
+│       └── 2021
+│           └── 03
+│               ├── 16
+│               │   └── eunsol
+│               │       ├── POOxOqpc
+│               │       └── ZQtmvDRd
+│               ├── 18
+│               │   └── eunsol
+│               │       └── dlPjmgzu
+│               └── 19
+│                   └── eunsol
+└── post
+    ├── migrations
+    │   └── __pycache__
+    ├── __pycache__
+    └── templates
+        └── post
+
+46 directories
