@@ -17,7 +17,7 @@ if [[ ${now_branch} = "develop" ]]; then
 	git checkout master
 	git merge --no-ff develop
 elif [[ ${now_branch} != "master" || ${now_branch} != "develop" ]]; then
-	git checkout devleop
+	git checkout develop
 	git merge --no-ff ${now_branch}
 fi
 
