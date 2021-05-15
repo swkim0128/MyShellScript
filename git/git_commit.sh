@@ -22,18 +22,20 @@ done <status_temp.txt
 
 if [[ ${new_file} != "" ]]; then
 	echo "add new_file!"
-	sleep 3s
 
 	git add ${new_file[@]}
 	git commit
+
+	sleep 3s
 fi
 
 if [[ ${modify_file} != "" ]]; then
 	echo "add modify_file!"
-	sleep 3s
 
 	git add ${modify_file[@]}
 	git commit
+
+	sleep 3s
 fi
 
 rm status_temp.txt
