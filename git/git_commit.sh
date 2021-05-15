@@ -24,7 +24,7 @@ if [[ ${new_file} != "" ]]; then
 	echo "add new_file!"
 	sleep 3s
 
-	git add ${new_file}
+	git add ${new_file[@]}
 	git commit
 fi
 
@@ -32,7 +32,7 @@ if [[ ${modify_file} != "" ]]; then
 	echo "add modify_file!"
 	sleep 3s
 
-	git add ${modify_file}
+	git add ${modify_file[@]}
 	git commit
 fi
 
